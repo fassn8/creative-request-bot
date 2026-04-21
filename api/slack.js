@@ -11,13 +11,12 @@ const MONDAY_BOARD_ID     = process.env.MONDAY_BOARD_ID;
 // These are the Monday.com column IDs on your board.
 // See README for how to find your exact column IDs.
 const COLUMN_IDS = {
-  requestType:  'request_type',   // Dropdown or Status column
-  description:  'long_text',      // Long Text column
-  dueDate:      'date',           // Date column
-  requester:    'text',           // Text column
-  links:        'link',           // Link / Text column
+  requestType:  'color_mkrz36fr',
+  description:  'creative_brief',
+  dueDate:      'date_mkrzgh6v',
+  requester:    'short_textwbcjl16e',
+  links:        'long_text_mkrz10xz',
 };
-
 // ─── HELPERS ─────────────────────────────────────────────────────────────────
 
 /**
