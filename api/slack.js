@@ -106,11 +106,11 @@ async function openModal(triggerId) {
       {
         type: 'input',
         block_id: 'requester',
-        label: { type: 'plain_text', text: 'Your Name / Team', emoji: true },
+        label: { type: 'plain_text', text: 'Your Canopy email address', emoji: true },
         element: {
           type: 'plain_text_input',
           action_id: 'value',
-          placeholder: { type: 'plain_text', text: 'e.g. Jason - Marketing' },
+          placeholder: { type: 'plain_text', text: 'e.g. jason@canopyworks.com' },
         },
       },
       {
