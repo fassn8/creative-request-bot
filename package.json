@@ -1,0 +1,16 @@
+{
+  "name": "creative-request-bot",
+  "version": "1.0.0",
+  "description": "Slack slash command → creative request form → Monday.com",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "devDependencies": {
+    "vercel": "^34.0.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
