@@ -349,8 +349,8 @@ export default async function handler(req, res) {
     return res.status(200).send('');
   }
 
-  // ── Slash Command (/creative-request) ─────────────────────────────────────
-  if (body.command === '/creative-request') {
+  // ── Slash Command (/flare) ─────────────────────────────────────
+  if (body.command === '/flare') {
     const { trigger_id } = body;
 
     if (!trigger_id) {
